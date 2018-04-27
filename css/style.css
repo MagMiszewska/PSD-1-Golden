@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 933px;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.main-header {
+  position: fixed;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header .main-header__logo {
+  padding-left: 20px;
+}
+
+.main-header .main-header__logo .main-header__logo-img {
+  height: 28px;
+}
+
+.main-header .main-header__spacer {
+  -ms-flex: 1;
+      flex: 1;
+}
+
+.main-header .main-nav {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+.main-header .main-nav .main-nav__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.main-header .main-nav .main-nav__list .main-nav__item .main-nav__link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+  padding: 0 15px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-header .main-nav .main-nav__list .main-nav__item .main-nav__link:hover {
+  color: #fed136;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/background-image.png) center 0/cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.hero .hero__slogan {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .hero__slogan .hero__subheading {
+  color: #fff;
+  font-family: "Droid Serif";
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  margin: 0 0 52px 0;
+}
+
+.hero .hero__slogan .hero__heading {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  letter-spacing: -1.88px;
+  margin: 0;
+}
+
+.hero .hero__button {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero .hero__button a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 25px 51px;
+  background-color: #fed136;
+}
+/*# sourceMappingURL=style.css.map */

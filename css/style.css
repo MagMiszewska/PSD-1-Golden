@@ -134,4 +134,54 @@ body {
   padding: 25px 51px;
   background-color: #fed136;
 }
+
+.section {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section .section__heading--primary {
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 19px;
+  padding-top: 119px;
+  margin: 0;
+}
+
+.section .section__heading--secondary {
+  color: #777777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 84px;
+}
+
+.services .services-types .services__icons {
+  color: #fed136;
+}
+
+.services .services-types .services-types__heading {
+  color: #222222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.45px;
+  padding-top: 27px;
+  margin: 0;
+}
+
+.services .services-types .services-types__content {
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+  padding: 18px 28px 118px 28px;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,5 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
 }
 
@@ -153,7 +150,12 @@ body {
         font-size: 16px;
         font-style: italic;
         padding-bottom: 84px;
+        margin: 0;
     }
+}
+
+.section--dark {
+    background-color: #f7f7f7;
 }
 
 .services {
@@ -180,6 +182,36 @@ body {
             letter-spacing: -0.35px;
             padding: 18px 28px 118px 28px;
             margin: 0;
+        }
+    }
+}
+
+.portfolio__gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .portfolio__project {
+        background-color: #fff;
+        margin-bottom: 49px;
+
+        .portfolio__caption {
+            .portfolio__caption--bold {
+                color: #333333;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: -0.45px;
+                padding-top: 29px;
+            }
+
+            .portfolio__caption--normal {
+                color: #737373;
+                font-family: "Droid Serif";
+                font-size: 14px;
+                font-style: italic;
+                padding-bottom: 27px;
+            }
         }
     }
 }

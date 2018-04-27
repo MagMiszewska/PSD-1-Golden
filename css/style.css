@@ -217,4 +217,13 @@
   font-style: italic;
   padding-bottom: 27px;
 }
+
+.partnership .partnership__icons {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.partnership .partnership__icons .partnership__icon {
+  padding: 67px 20px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -152,36 +152,52 @@
         padding-bottom: 84px;
         margin: 0;
     }
+
+    .section__heading--light {
+        color: #fff;
+    }
 }
 
 .section--dark {
     background-color: #f7f7f7;
 }
 
+/*.section--black {
+    background-color: #222222;
+}*/
+
 .services {
-    .services-types {
-        .services__icons {
-            color: #fed136;
-        }
+    .services__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
 
-        .services-types__heading {
-            color: #222222;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            letter-spacing: -0.45px;
-            padding-top: 27px;
-            margin: 0;
-        }
+        .services-types {
+            width: 274px;
 
-        .services-types__content {
-            color: #777777;
-            font-family: "Roboto Slab";
-            font-size: 14px;
-            font-weight: 400;
-            letter-spacing: -0.35px;
-            padding: 18px 28px 118px 28px;
-            margin: 0;
+            .services__icons {
+                color: #fed136;
+            }
+
+            .services-types__heading {
+                color: #222222;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: -0.45px;
+                padding-top: 27px;
+                margin: 0;
+            }
+
+            .services-types__content {
+                color: #777777;
+                font-family: "Roboto Slab";
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: -0.35px;
+                padding: 18px 28px 118px 28px;
+                margin: 0;
+            }
         }
     }
 }
@@ -218,10 +234,62 @@
 
 .partnership {
     .partnership__icons {
+        display: flex;
         justify-content: center;
+        flex-wrap: wrap;
 
         .partnership__icon {
             padding: 67px 20px;
         }
+    }
+}
+
+.contact-us {
+    background: url(../images/map-image.jpg) right no-repeat #222;
+
+    .contact-us__form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 940px;
+
+        .contact__sender {
+            display: flex;
+            flex-direction: column;
+
+            .contact-us__data {
+                width: 455px;
+                height: 51px;
+                margin: 0 14px 29px 0;
+            }
+        }
+
+        .contact-us__message {
+            width: 455px;
+            height: 210px;
+            margin: 0 0 29px 14px;
+            padding-top: 20px;
+        }
+    }
+
+    .contact-us__button {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 25px 51px;
+        background-color: #fed136;
+        margin-bottom: 115px;
+    }
+
+    .contact-us__placeholder {
+        padding-left: 20px;
+        text-transform: uppercase;
+        color: #bbbbbb;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
     }
 }

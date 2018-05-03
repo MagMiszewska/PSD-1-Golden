@@ -305,4 +305,29 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+.main-footer .main-footer__content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+.main-footer .main-footer__content .main-footer__copyright {
+  -ms-flex: 40%;
+      flex: 40%;
+  padding: 33px 0;
+  color: #555555;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.main-footer .main-footer__content .main-footer__social-media {
+  -ms-flex: 60%;
+      flex: 60%;
+}
 /*# sourceMappingURL=style.css.map */

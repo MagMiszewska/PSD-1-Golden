@@ -194,6 +194,7 @@
 .portfolio__gallery .portfolio__project {
   background-color: #fff;
   margin-bottom: 49px;
+  transition: transform 0.5s;
 }
 
 .portfolio__gallery .portfolio__project .portfolio__caption .portfolio__caption--bold {
@@ -201,7 +202,6 @@
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: -0.45px;
   padding-top: 29px;
 }
 
@@ -211,6 +211,10 @@
   font-size: 14px;
   font-style: italic;
   padding-bottom: 27px;
+}
+
+.portfolio__gallery .portfolio__project:hover {
+  transform: scale(1.07);
 }
 
 .contact-us {

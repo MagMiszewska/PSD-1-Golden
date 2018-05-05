@@ -1,0 +1,29 @@
+.portfolio__gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .portfolio__project {
+        background-color: $white;
+        margin-bottom: 49px;
+
+        .portfolio__caption {
+            .portfolio__caption--bold {
+                color: #333333;
+                font-family: $font-primary;
+                font-size: 18px;
+                font-weight: $bold;
+                letter-spacing: -0.45px;
+                padding-top: 29px;
+            }
+
+            .portfolio__caption--normal {
+                color: #737373;
+                font-family: $font-secondary;
+                font-size: 14px;
+                font-style: italic;
+                padding-bottom: 27px;
+            }
+        }
+    }
+}

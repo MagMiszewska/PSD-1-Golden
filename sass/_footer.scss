@@ -1,0 +1,21 @@
+.main-footer {
+    .main-footer__content {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+
+        .main-footer__copyright {
+            flex: 40%;
+            padding: 33px 0;
+            color: #555555;
+            font-family: $font-primary;
+            font-size: 14px;
+            font-weight: $normal;
+            line-height: 22px;
+        }
+
+        .main-footer__social-media {
+            flex: 60%;
+        }
+    }
+}

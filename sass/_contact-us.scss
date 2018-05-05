@@ -1,0 +1,49 @@
+.contact-us {
+    background: url(../images/map-image.jpg) right no-repeat $color-header;
+
+    .contact-us__form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 940px;
+
+        .contact__sender {
+            display: flex;
+            flex-direction: column;
+
+            .contact-us__data {
+                width: 455px;
+                height: 51px;
+                margin: 0 14px 29px 0;
+            }
+        }
+
+        .contact-us__message {
+            width: 455px;
+            height: 210px;
+            margin: 0 0 29px 14px;
+            padding-top: 20px;
+        }
+    }
+
+    .contact-us__button {
+        color: #fff;
+        font-family: $font-primary;
+        font-size: 18px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 25px 51px;
+        background-color: $yellow;
+        margin-bottom: 115px;
+    }
+
+    .contact-us__placeholder {
+        padding-left: 20px;
+        text-transform: uppercase;
+        color: #bbbbbb;
+        font-family: $font-primary;
+        font-size: 14px;
+        font-weight: $bold;
+    }
+}

@@ -1,0 +1,11 @@
+.partnership {
+    .partnership__icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .partnership__icon {
+            padding: 67px 20px;
+        }
+    }
+}

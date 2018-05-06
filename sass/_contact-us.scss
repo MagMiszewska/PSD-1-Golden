@@ -27,15 +27,9 @@
     }
 
     .contact-us__button {
-        color: #fff;
-        font-family: $font-primary;
-        font-size: 18px;
-        font-weight: $bold;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 25px 51px;
-        background-color: $yellow;
         margin-bottom: 115px;
+        border: none;
+        cursor: pointer;
     }
 
     .contact-us__placeholder {

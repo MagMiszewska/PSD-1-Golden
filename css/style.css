@@ -1,6 +1,17 @@
 /*FONT FAMILY*/
 /*COLORS*/
 /*FONT WEIGHT*/
+.button--yellow {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 25px 51px;
+  background-color: #fed136;
+}
+
 .section {
   width: 100%;
   text-align: center;
@@ -40,6 +51,7 @@
   width: 100%;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 44px;
 }
 
 .main-header .main-header__logo {
@@ -134,17 +146,6 @@
   bottom: 15vh;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.hero .hero__button a {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 25px 51px;
-  background-color: #fed136;
 }
 
 .services .services__content {
@@ -252,15 +253,9 @@
 }
 
 .contact-us .contact-us__button {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 25px 51px;
-  background-color: #fed136;
   margin-bottom: 115px;
+  border: none;
+  cursor: pointer;
 }
 
 .contact-us .contact-us__placeholder {

@@ -37,17 +37,6 @@
         position: absolute;
         bottom: 15vh;
         left: 50%;
-        transform: translate(-50%, -50%);
-
-        a {
-            color: #fff;
-            font-family: $font-primary;
-            font-size: 18px;
-            font-weight: $bold;
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 25px 51px;
-            background-color: $yellow;
-        }
+        transform: translate(-50%, -50%);        
     }
 }

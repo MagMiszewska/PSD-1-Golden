@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,36 +23,36 @@
             <nav class="main-nav">
                 <ul class="main-nav__list">
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">Home</a>
+                        <a class="main-nav__link" href="#home">Home</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">Services</a>
+                        <a class="main-nav__link" href="#services">Services</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">Portfolio</a>
+                        <a class="main-nav__link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">About</a>
+                        <a class="main-nav__link" href="#about">About</a>
                     </li>
                     <li class="main-nav__item">
-                        <a class="main-nav__link" href="#">Contact</a>
+                        <a class="main-nav__link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero__slogan">
             <h2 class="hero__subheading">Welcome to our studio!</h2>
             <h1 class="hero__heading">It's nice to meet you</h1>
         </div>
         <div class="hero__button">
-            <a class="button--yellow" href="#">Tell me more</a>
+            <a class="button--yellow js__to-about-us--scroll" href="#">Tell me more</a>
         </div>
     </section>
 
-    <section class="section section--light services">
+    <section class="section section--light services"  id="services">
         <div class="section__header">
             <h2 class="section__heading--primary">Services</h2>
             <h3 class="section__heading--secondary">Proin iaculis purus consequat sem cure. </h3>
@@ -86,7 +88,7 @@
         </div>
     </section>
 
-    <section class="section section--dark portfolio">
+    <section class="section section--dark portfolio"  id="portfolio">
         <div class="section__header">
             <h2 class="section__heading--primary">Our portfolio</h2>
             <h3 class="section__heading--secondary">Proin iaculis purus consequat sem cure.</h3>
@@ -137,7 +139,7 @@
         </div>
     </section>
 
-    <section class="section section--light about-us">
+    <section class="section section--light about-us js__about-us"  id="about">
         <div class="section__header">
             <h2 class="section__heading--primary">About Us</h2>
             <h3 class="section__heading--secondary">Proin iaculis purus consequat sem cure.</h3>
@@ -215,7 +217,7 @@
         </div>
     </section>
 
-    <section class="section section--black contact-us">
+    <section class="section section--black contact-us"  id="contact">
         <div class="section__header">
             <h2 class="section__heading--primary section__heading--light">Contact us</h2>
             <h3 class="section__heading--secondary">Proin iaculis purus consequat sem cure.</h3>
@@ -250,7 +252,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -64,7 +64,7 @@
             justify-content: center;
 
             .team__social-link {
-                text-decoration: none;
+                text-decoration: none;                
 
                 .team__social-logo {
                     height: 43px;
@@ -75,6 +75,7 @@
                     font-size: 19px;
                     color: #000;
                     margin: 0 4px;
+                    transition: all 0.5s;
                 }
 
                 .team__social-logo--twitter {

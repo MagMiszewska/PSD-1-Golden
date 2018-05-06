@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('.js__to-about-us--scroll').click(function () {
         $('html, body').animate({ scrollTop: $('.js__about-us').offset().top }, 1000);
     });
-    
+
     /* Navigation scroll */
     $(function () {
         $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function (event) {
@@ -33,4 +33,12 @@ $(document).ready(function () {
             }
         });
     });
+
+     /* Animations on scroll */
+     $('.js__wp').waypoint(function(direction) {
+        $('.js__wp').addClass('animated fadeInUp')
+    }, {
+        offset: '50%'
+    });
+
 });

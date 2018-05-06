@@ -12,6 +12,14 @@
   background-color: #fed136;
 }
 
+.js__wp {
+  opacity: 0;
+}
+
+.js__wp.animated {
+  opacity: 1;
+}
+
 .section {
   width: 100%;
   text-align: center;

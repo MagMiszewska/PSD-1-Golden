@@ -1,0 +1,34 @@
+.about-us {
+    .about-us__timeline {
+
+            .about-us__caption {
+
+                .about-us__heading--uppercase {
+                    color: $color-header;
+                    font-family: $font-primary;
+                    font-size: 18px;
+                    font-weight: $bold;
+                    text-transform: uppercase;
+                }
+
+                .about-us__heading--capitalize {
+
+                @extend .about-us__heading--uppercase;
+
+                text-transform: capitalize;
+                }
+
+                .about-us__paragraph {
+                    color: $color-paragraph;
+                    font-family: $font-tertiary;
+                    font-size: 14px;
+                    font-weight: $normal;
+                }
+            }
+            .about-us__image {
+                border-radius: 50%;
+                border: 7px solid #f1f1f1;
+            }
+        }        
+
+}

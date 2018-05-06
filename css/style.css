@@ -226,6 +226,30 @@
   transform: scale(1.07);
 }
 
+.about-us .about-us__timeline .about-us__caption .about-us__heading--uppercase, .about-us .about-us__timeline .about-us__caption .about-us__heading--capitalize {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-us .about-us__timeline .about-us__caption .about-us__heading--capitalize {
+  text-transform: capitalize;
+}
+
+.about-us .about-us__timeline .about-us__caption .about-us__paragraph {
+  color: #777777;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-us .about-us__timeline .about-us__image {
+  border-radius: 50%;
+  border: 7px solid #f1f1f1;
+}
+
 .contact-us {
   background: url(../images/map-image.jpg) right no-repeat #222222;
 }

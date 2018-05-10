@@ -9,6 +9,11 @@
         @content;
     }
 }
+@mixin tablet-big {
+    @media (max-width: $tabletBigWidth) {
+        @content;
+    }
+}
 @mixin desktop {
     @media (max-width: $desktopWidth) {
         @content;

@@ -4,58 +4,67 @@
         justify-content: center;
         flex-flow: wrap;
 
-        .main-footer__copyright {
-            flex: 40%;
-            padding: 33px 0;
-            color: #555555;
-            font-family: $font-primary;
-            font-size: 14px;
-            font-weight: $normal;
-            line-height: 22px;            
+        @include tablet {
+            flex-direction: column;
         }
+    }
 
-        .main-footer__social-media {
-            flex: 60%;            
+    .main-footer__copyright {
+        flex: 40%;
+        padding: 33px 0;
+        color: #555555;
+        font-family: $font-primary;
+        font-size: 14px;
+        font-weight: $normal;
+        line-height: 22px;
+    }
 
-            .footer__social-link {
-                text-decoration: none;
-                .footer__social-logo {
-                    height: 43px;
-                    width: 43px;
-                    line-height: 43px;
-                    border-radius: 50%;
-                    font-size: 19px;
-                    color: $white;
-                    margin: 0 4px;
-                    background-color: #000;
-                    text-align: center;
-                    transition: all 0.5s ease-in-out;
-                }
+    .main-footer__social-media {
+        flex: 60%;
 
-                .footer__social-logo--twitter {
-                    &:hover {
-                        background-color: #00aced;
-                    }
-                }
+        @include tablet {
+            padding-bottom: 33px;
+        }
+    }
 
-                .footer__social-logo--fb {
-                    &:hover {
-                        background-color: #3b5998;
-                    }
-                }
+    .footer__social-link {
+        text-decoration: none;
+    }
 
-                .footer__social-logo--pinterest {
-                    &:hover {
-                        background-color: #cb2028;
-                    }
-                }
+    .footer__social-logo {
+        height: 43px;
+        width: 43px;
+        line-height: 43px;
+        border-radius: 50%;
+        font-size: 19px;
+        color: $white;
+        margin: 0 4px;
+        background-color: #000;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
 
-                .footer__social-logo--google-plus {
-                    &:hover {
-                        background-color: #d95232;
-                    }
-                }
-            }
+    .footer__social-logo--twitter {
+        &:hover {
+            background-color: #00aced;
+        }
+    }
+
+    .footer__social-logo--fb {
+        &:hover {
+            background-color: #3b5998;
+        }
+    }
+
+    .footer__social-logo--pinterest {
+        &:hover {
+            background-color: #cb2028;
+        }
+    }
+
+    .footer__social-logo--google-plus {
+        &:hover {
+            background-color: #d95232;
         }
     }
 }

@@ -5,6 +5,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 980px;
+
         @include tablet {
             flex-direction: column;
         }
@@ -14,6 +15,7 @@
         display: flex;
         flex-direction: column;
         width: 48.5%;
+
         @include tablet {
             width: 100%;
         }
@@ -21,7 +23,7 @@
 
     .contact-us__data {
         height: 51px;
-        margin-bottom: 29px;        
+        margin-bottom: 29px;
     }
 
     .contact-us__message {
@@ -29,6 +31,7 @@
         height: 210px;
         margin-bottom: 29px;
         padding-top: 20px;
+
         @include tablet {
             width: 100%;
         }

@@ -402,17 +402,62 @@
   font-weight: 700;
 }
 
-.partnership .partnership__icons {
+.partnership__icons {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  max-width: 765px;
+  margin: 0 auto;
+  width: 100%;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 67px 20px;
 }
 
-.partnership .partnership__icons .partnership__icon {
-  padding: 67px 20px;
+@media (max-width: 768px) {
+  .partnership__icons {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    padding-bottom: 0;
+  }
+}
+
+.partnership__icons--group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .partnership__icons--group {
+    padding-bottom: 67px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .partnership__icons--group {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .partnership__icon {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partnership__icon:last-of-type {
+    padding-bottom: 67px;
+  }
 }
 
 .team .team__members {

@@ -2,37 +2,42 @@
     background: url(../images/map-image.jpg) right no-repeat $color-header;
 
     .contact-us__form {
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
-        max-width: 940px;
-
-        .contact__sender {
-            display: flex;
+        max-width: 980px;
+        @include tablet {
             flex-direction: column;
-
-            .contact-us__data {
-                width: 455px;
-                height: 51px;
-                margin: 0 29px 29px 0;
-                @include desktop {
-                    margin-right: 0;
-                }
-            }
         }
+    }
 
-        .contact-us__message {
-            width: 455px;
-            height: 210px;
-            margin: 0 0 29px 0;
-            padding-top: 20px;
+    .contact__sender {
+        display: flex;
+        flex-direction: column;
+        width: 48.5%;
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+    .contact-us__data {
+        height: 51px;
+        margin-bottom: 29px;        
+    }
+
+    .contact-us__message {
+        width: 48.5%;
+        height: 210px;
+        margin-bottom: 29px;
+        padding-top: 20px;
+        @include tablet {
+            width: 100%;
         }
     }
 
     .contact-us__button {
         margin-bottom: 115px;
         border: none;
-        cursor: pointer;        
+        cursor: pointer;
     }
 
     .contact-us__placeholder {

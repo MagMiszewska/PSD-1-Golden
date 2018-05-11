@@ -11,4 +11,8 @@
         padding: 20px 40px;
         font-size: 14px;
     }
+    @include phone {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
 }

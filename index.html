@@ -14,14 +14,12 @@
 </head>
 
 <body>
-    <header class="main-header">
-        <div class="container">
-            <div class="main-header__logo">
-                <img src="images/logo.png" class="main-header__logo-img" alt="logo" />
-            </div>
-            <div class="main-header__spacer" aria-hidden="true"></div>
 
-            <nav class="main-nav">
+    <header class="main-header" id="home">
+
+        <nav class="main-nav">
+            <div class="container">
+                <img src="images/logo.png" class="main-nav__logo" alt="logo">
                 <ul class="main-nav__list">
                     <li class="main-nav__item">
                         <a class="main-nav__link" href="#home">Home</a>
@@ -39,21 +37,21 @@
                         <a class="main-nav__link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </header>
+            </div>
+        </nav>
 
-    <section class="hero" id="home">
-        <div class="hero__slogan">
-            <h2 class="hero__subheading">Welcome to our studio!</h2>
-            <h1 class="hero__heading">It's nice to meet you</h1>
+        <div class="main-header__slogan">
+            <h2 class="main-header__subheading">Welcome to our studio!</h2>
+            <h1 class="main-header__heading">It's nice to meet you</h1>
         </div>
-        <div class="hero__button">
+        <div class="main-header__button">
             <a class="button--yellow js__to-about-us--scroll" href="#">Tell me more</a>
         </div>
-    </section>
 
-    <section class="section section--light services" id="services">
+    </header>
+
+
+    <section class="js__services section section--light services" id="services">
         <div class="section__header">
             <h2 class="section__heading--primary">Services</h2>
             <h3 class="section__heading--secondary">Proin iaculis purus consequat sem cure. </h3>
@@ -83,7 +81,7 @@
                     <i class="fa fa-circle-thin fa-stack-2x" aria-hidden="true"></i>
                 </span>
                 <h4 class="services-types__heading">Web security</h4>
-                <p class="services-types__content">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
+                <p class="services-types__content services-types__content--last">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere
                     odio in tincidunt.</p>
             </div>
         </div>

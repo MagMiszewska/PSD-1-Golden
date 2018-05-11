@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    
+    /* Sticky navigation */
+    $('.js__services').waypoint(function(direction) {
+        if (direction == "down") {
+            $('nav').addClass('main-nav--sticky');
+        } else {
+            $('nav').removeClass('main-nav--sticky');
+        }
+    }, {
+      offset: '60px;'
+    });
 
     /* Scroll on buttons */
     $('.js__to-about-us--scroll').click(function () {

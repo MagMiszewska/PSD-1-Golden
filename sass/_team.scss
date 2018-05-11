@@ -1,5 +1,6 @@
 .team__members {
     max-width: 780px;
+    display: flex;
     justify-content: space-between;
     @include tablet {
         flex-direction: column;

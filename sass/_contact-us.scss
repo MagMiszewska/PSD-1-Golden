@@ -2,6 +2,7 @@
     background: url(../images/map-image.jpg) right no-repeat $color-header;
 
     .contact-us__form {
+        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: 980px;

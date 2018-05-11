@@ -252,7 +252,11 @@
   }
 }
 
-.portfolio__gallery {
+.portfolio {
+  padding-bottom: 121px;
+}
+
+.portfolio .portfolio__gallery {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -261,13 +265,17 @@
       flex-wrap: wrap;
 }
 
-.portfolio__gallery .portfolio__project {
+.portfolio .portfolio__project {
   background-color: #fff;
   margin-bottom: 49px;
   transition: transform 0.5s;
 }
 
-.portfolio__gallery .portfolio__project .portfolio__caption .portfolio__caption--bold {
+.portfolio .portfolio__project:hover {
+  transform: scale(1.07);
+}
+
+.portfolio .portfolio__caption--bold {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -275,16 +283,12 @@
   padding-top: 29px;
 }
 
-.portfolio__gallery .portfolio__project .portfolio__caption .portfolio__caption--normal {
+.portfolio .portfolio__caption--normal {
   color: #737373;
   font-family: "droid-serif", serif;
   font-size: 14px;
   font-style: italic;
   padding-bottom: 27px;
-}
-
-.portfolio__gallery .portfolio__project:hover {
-  transform: scale(1.07);
 }
 
 .about-us .about-us__timeline {

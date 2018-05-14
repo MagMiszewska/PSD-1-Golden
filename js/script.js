@@ -1,15 +1,15 @@
 $(document).ready(function () {
-    
+
     /* Sticky navigation */
-    $('.js__services').waypoint(function(direction) {
+    $('.js__services').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('main-nav--sticky');
         } else {
             $('nav').removeClass('main-nav--sticky');
         }
     }, {
-      offset: '60px;'
-    });
+            offset: '60px;'
+        });
 
     /* Scroll on buttons */
     $('.js__to-about-us--scroll').click(function () {
@@ -45,11 +45,27 @@ $(document).ready(function () {
         });
     });
 
-     /* Animations on scroll */
-     $('.js__wp').waypoint(function(direction) {
+    /* Animations on scroll */
+    $('.js__wp').waypoint(function (direction) {
         $('.js__wp').addClass('animated fadeInUp')
     }, {
-        offset: '50%'
+            offset: '50%'
+        });
+
+    /* Mobile navigation */
+    $('.js__main-nav--hamburger').click(function () {
+        var nav = $('.js__main-nav');
+        var icon = $('.js__main-nav--hamburger .fa');
+
+        nav.slideToggle(200);
+
+        if (icon.hasClass('fa-bars')) {
+            icon.addClass('fa-times');
+            icon.removeClass('fa-bars');
+        } else {
+            icon.addClass('fa-bars');
+            icon.removeClass('fa-times');
+        }
     });
 
 });

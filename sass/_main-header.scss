@@ -10,6 +10,13 @@
         float: right;
         list-style: none;
         margin-top: 55px;
+
+        @include tablet {
+            float: left;
+            margin-top: 25px;
+            margin-left: 25px;
+            display: none;
+        }
     }
 
     .main-nav__logo {
@@ -22,6 +29,12 @@
     .main-nav__item {
         display: inline-block;
         margin-left: 20px;
+
+        @include tablet {
+            display: block;
+            border: none;
+            text-align: left;
+        }
     }
 
     .main-nav__link {
@@ -38,6 +51,16 @@
         &:hover {
             color: $yellow;
             border-bottom: 2px solid $yellow;
+
+            @include tablet {
+                border: 0;
+            }
+        }
+
+        @include tablet {
+            display: block;
+            padding: 5px 0;
+            transition: none;
         }
     }
 
@@ -94,6 +117,22 @@
     }
 }
 
+.main-nav__icon--mobile {
+    float: right;
+    cursor: pointer;
+    margin-top: 30px;
+    display: none;
+
+    .fa {
+        font-size: 40px;
+        color: $white;
+    }
+
+    @include tablet {
+        display: inline-block;
+    }
+}
+
 .main-nav--sticky {
     position: fixed;
     top: 0;
@@ -110,9 +149,30 @@
     .main-nav__link {
         padding: 8px 0;
         color: $color-header;
+
+        @include tablet {
+            padding: 5px 0;
+        }
     }
 
     .main-nav__logo {
         margin-top: 8px;
+
+        @include tablet {
+            margin-top: 10px;
+        }
+    }
+
+    .main-nav__icon--mobile {
+        @include tablet {
+            margin-top: 0;
+        }
+
+
+        .fa {
+            @include tablet {
+                color: #555;
+            }
+        }
     }
 }

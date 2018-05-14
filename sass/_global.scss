@@ -1,4 +1,4 @@
-.button--yellow {
+.button {
     color: #fff;
     font-family: $font-primary;
     font-size: 18px;
@@ -7,10 +7,22 @@
     text-decoration: none;
     padding: 25px 51px;
     background-color: $yellow;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        border-radius: 15px;
+        background-color: #f7dc7e;
+        color: #555;
+        box-shadow: 0 5px 15px rgba(247, 221, 126, 0.616);
+        
+    }
+
     @include tablet {
         padding: 20px 40px;
         font-size: 14px;
     }
+
+
     @include phone {
         padding: 15px 30px;
         font-size: 12px;

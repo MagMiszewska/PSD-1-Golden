@@ -5,7 +5,7 @@
         align-items: center;
     }
 
-    .about-us__timeline--left {
+    .about-us__timeline-item {
         position: relative;
         width: 100%;
         height: 100%;
@@ -20,18 +20,21 @@
 
         @include tablet-big {
             right: 65%;
+            width: 250px;
         }
 
 
         @include tablet {
-            width: 250px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            right: 0;
+            width: 100%;
+            text-align: center;
         }
-    }
-
-    .about-us__timeline--right {
-        position: relative;
-        width: 100%;
-        height: 100%;
     }
 
     .about-us__caption--right {
@@ -43,11 +46,20 @@
 
         @include tablet-big {
             left: 65%;
+            width: 250px;
         }
 
 
         @include tablet {
-            width: 250px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
         }
     }
 
@@ -72,6 +84,10 @@
         font-family: $font-tertiary;
         font-size: 14px;
         font-weight: $normal;
+
+        @include tablet {
+            width: 70%;
+        }
     }
 
     .about-us__image {
@@ -79,6 +95,10 @@
         border: 7px solid #f1f1f1;
         margin-bottom: -4px;
         padding: 0;
+
+        @include tablet {
+            margin-top: 30px;
+        }
     }
 
     .about-us__line {

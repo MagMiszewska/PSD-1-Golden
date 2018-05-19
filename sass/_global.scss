@@ -14,7 +14,7 @@
         color: #555;        
     }
 
-    @include tablet {
+    @include tablet-big {
         padding: 20px 40px;
         font-size: 14px;
     }

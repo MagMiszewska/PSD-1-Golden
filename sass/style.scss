@@ -1,20 +1,18 @@
-
 // IMPORT SECTIONS
-@import 'variables';
-@import 'mixins';
-@import 'global';
-@import 'animations';
-@import 'section';
-@import 'main-header';
-@import 'main-nav';
-@import 'services';
-@import 'portfolio';
-@import 'about-us';
-@import 'contact-us';
-@import 'partnership';
-@import 'team';
-@import 'footer';
-
+@import "variables";
+@import "mixins";
+@import "global";
+@import "animations";
+@import "section";
+@import "main-header";
+@import "main-nav";
+@import "services";
+@import "portfolio";
+@import "about-us";
+@import "contact-us";
+@import "partnership";
+@import "team";
+@import "footer";
 
 * {
     box-sizing: border-box;

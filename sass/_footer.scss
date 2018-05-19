@@ -1,5 +1,5 @@
-.main-footer {
-    .main-footer__content {
+.footer {
+    .footer__content {
         display: flex;
         justify-content: center;
         flex-flow: wrap;
@@ -9,7 +9,7 @@
         }
     }
 
-    .main-footer__copyright {
+    .footer__copyright {
         flex: 40%;
         padding: 33px 0;
         color: #555555;
@@ -19,7 +19,7 @@
         line-height: 22px;
     }
 
-    .main-footer__social-media {
+    .footer__social-media {
         flex: 60%;
 
         @include tablet {

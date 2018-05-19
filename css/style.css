@@ -302,7 +302,7 @@
   }
 }
 
-.services__content {
+.services .services__content {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -310,27 +310,27 @@
 }
 
 @media (max-width: 576px) {
-  .services__content {
+  .services .services__content {
     -ms-flex-direction: column;
         flex-direction: column;
   }
 }
 
-.services-types {
+.services .services-types {
   width: 33%;
 }
 
 @media (max-width: 576px) {
-  .services-types {
+  .services .services-types {
     width: 100%;
   }
 }
 
-.services__icons {
+.services .services__icons {
   color: #fed136;
 }
 
-.services-types__heading {
+.services .services-types__heading {
   color: #222222;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
@@ -339,7 +339,7 @@
   margin: 0;
 }
 
-.services-types__content {
+.services .services-types__content {
   color: #777777;
   font-family: "Roboto Slab", serif;
   font-size: 14px;
@@ -349,13 +349,13 @@
 }
 
 @media (max-width: 576px) {
-  .services-types__content {
+  .services .services-types__content {
     padding: 25px 0;
   }
 }
 
 @media (max-width: 576px) {
-  .services-types__content--last {
+  .services .services-types__content--last {
     padding-bottom: 118px;
   }
 }
@@ -425,66 +425,66 @@
   }
 }
 
-.about-us .about-us__caption--left {
+.about-us .about-us__caption {
   position: absolute;
   top: 0;
-  right: 60%;
   width: 307px;
+}
+
+@media (max-width: 992px) {
+  .about-us .about-us__caption {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us .about-us__caption {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.about-us .about-us__caption--left {
+  right: 60%;
   text-align: right;
 }
 
 @media (max-width: 992px) {
   .about-us .about-us__caption--left {
     right: 65%;
-    width: 250px;
   }
 }
 
 @media (max-width: 768px) {
   .about-us .about-us__caption--left {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
     right: 0;
-    width: 100%;
     text-align: center;
   }
 }
 
 .about-us .about-us__caption--right {
-  position: absolute;
-  top: 0;
   left: 60%;
-  width: 307px;
   text-align: left;
 }
 
 @media (max-width: 992px) {
   .about-us .about-us__caption--right {
     left: 65%;
-    width: 250px;
   }
 }
 
 @media (max-width: 768px) {
   .about-us .about-us__caption--right {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
     left: 0;
-    width: 100%;
     text-align: center;
   }
 }
@@ -784,7 +784,7 @@
   padding: 49px 10px 117px 10px;
 }
 
-.main-footer .main-footer__content {
+.footer .footer__content {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -794,13 +794,13 @@
 }
 
 @media (max-width: 768px) {
-  .main-footer .main-footer__content {
+  .footer .footer__content {
     -ms-flex-direction: column;
         flex-direction: column;
   }
 }
 
-.main-footer .main-footer__copyright {
+.footer .footer__copyright {
   -ms-flex: 40%;
       flex: 40%;
   padding: 33px 0;
@@ -811,22 +811,22 @@
   line-height: 22px;
 }
 
-.main-footer .main-footer__social-media {
+.footer .footer__social-media {
   -ms-flex: 60%;
       flex: 60%;
 }
 
 @media (max-width: 768px) {
-  .main-footer .main-footer__social-media {
+  .footer .footer__social-media {
     padding-bottom: 33px;
   }
 }
 
-.main-footer .footer__social-link {
+.footer .footer__social-link {
   text-decoration: none;
 }
 
-.main-footer .footer__social-logo {
+.footer .footer__social-logo {
   height: 43px;
   width: 43px;
   line-height: 43px;
@@ -839,19 +839,19 @@
   transition: all 0.2s ease-in-out;
 }
 
-.main-footer .footer__social-logo--twitter:hover {
+.footer .footer__social-logo--twitter:hover {
   background-color: #00aced;
 }
 
-.main-footer .footer__social-logo--fb:hover {
+.footer .footer__social-logo--fb:hover {
   background-color: #3b5998;
 }
 
-.main-footer .footer__social-logo--pinterest:hover {
+.footer .footer__social-logo--pinterest:hover {
   background-color: #cb2028;
 }
 
-.main-footer .footer__social-logo--google-plus:hover {
+.footer .footer__social-logo--google-plus:hover {
   background-color: #d95232;
 }
 

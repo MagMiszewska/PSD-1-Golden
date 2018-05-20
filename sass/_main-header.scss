@@ -4,7 +4,7 @@
     width: 100%;
     overflow: hidden;
     background-attachment: fixed;
-    text-align: center;    
+    text-align: center;
 
     .main-header__slogan {
         position: absolute;
@@ -29,7 +29,7 @@
         @include tablet {
             margin-bottom: 20px;
         }
-        
+
         @include phone {
             font-size: 30px;
         }
@@ -47,11 +47,9 @@
             font-size: 65px;
         }
 
-
         @include tablet-big {
             font-size: 60px;
         }
-
 
         @include tablet {
             font-size: 40px;
@@ -68,9 +66,9 @@
         bottom: 15vh;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+
         @include tablet {
-        bottom: 7vh;
+            bottom: 7vh;
         }
     }
 }

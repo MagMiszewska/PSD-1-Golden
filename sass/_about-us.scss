@@ -26,7 +26,6 @@
             width: 250px;
         }
 
-
         @include tablet {
             position: relative;
             display: flex;
@@ -46,7 +45,6 @@
             right: 65%;
         }
 
-
         @include tablet {
             right: 0;
             text-align: center;
@@ -60,7 +58,6 @@
         @include tablet-big {
             left: 65%;
         }
-
 
         @include tablet {
             left: 0;
@@ -79,7 +76,6 @@
 
     .about-us__heading--capitalize {
         @extend .about-us__heading--uppercase;
-
         text-transform: capitalize;
         padding-bottom: 17px;
     }
